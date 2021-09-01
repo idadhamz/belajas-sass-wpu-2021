@@ -1,0 +1,12 @@
+@use "submodules/mixins" as m;
+
+.header ul {
+  @include m.inline-list();
+  li {
+    background-color: coral;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+$salmonColor: salmon;
+$whiteColor: white;
+
+header {
+  background-color: $salmonColor;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p {
+    color: $whiteColor;
+  }
+}

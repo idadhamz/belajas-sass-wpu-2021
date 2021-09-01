@@ -1,0 +1,17 @@
+@use "submodules/mixins" as m;
+
+.container {
+  @include m.flex-box(row-reverse, space-evenly);
+  background-color: yellowgreen;
+  width: 600px;
+  height: 400px;
+  margin: 2em 0;
+  .box {
+    background-color: slateblue;
+    width: 60px;
+    height: 60px;
+
+    text-align: center;
+    line-height: 60px;
+  }
+}

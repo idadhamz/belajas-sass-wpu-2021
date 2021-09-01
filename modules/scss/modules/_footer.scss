@@ -1,0 +1,12 @@
+@use "submodules/mixins" as m;
+
+.footer ul {
+  @include m.inline-list();
+  li {
+    background-color: slateblue;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
